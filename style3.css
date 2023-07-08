@@ -1,0 +1,41 @@
+
+.res{
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+}
+#line1{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+}
+#line2{
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+}
+#play-again{
+    margin-top: 3vh;
+    padding: 10px;
+    width: 12vw;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 0.1em;
+    opacity: 0.9;
+}
+.replay{
+    margin-top: 3vh;
+    padding: 10px;
+    width: 12vw;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 0.1em;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.play-again:hover{
+    opacity: 1;
+}
+.replay:hover{
+    opacity: 1;
+}

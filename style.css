@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: #8CC461;
+    font-family: Roboto;
+}
+#scoreboard{
+    border-radius: 13px;
+    border: 2px solid #FFF;
+    padding:15px;
+    display: flex;
+    width:60%;
+    margin:50px auto;
+}
+.box1{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 4px;
+    width:70%;
+}
+.box2{
+    border-radius: 9px;
+    background: #FFF;
+    width:15%;
+    margin-left: 30px;
+    padding:10px;
+}
+.box2 .text{
+    color: #656565;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    text-align: center;
+}
+.box2 .score{
+    color: #252525;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.icons{
+    width: 110px;
+    height: 110px;
+    flex-shrink: 0;
+    border-radius: 110px;
+    box-shadow: -1px 1px 11px 0px rgba(0, 0, 0, 0.35);
+}
+#scissors, #s{
+    border: 16px solid #BD00FF;
+    background: url("17911 1.png") lightgray no-repeat center center;
+
+}
+#rock, #r{
+    border: 16px solid #0074B6;
+    background: url("icons8-fist-67 1.png") lightgray no-repeat center center;
+}
+#paper, #p{
+    border: 16px solid #FFA943;
+    background: url("icons8-hand-64 1.png") lightgray no-repeat center center;
+    margin-top:200px;
+}
+#main-area{
+    display:flex;
+    justify-content: center;
+}
+/* .horizontal{
+    margin-left: 42vw;
+    margin-top: 45vh;
+    transform: rotate();
+    width: 200px;
+    height: 30px;
+    border: #000000A3;
+    background-color: #000000A3
+ }
+.diagonal1{
+    margin-left: 39vw;
+    margin-top: 12vh;
+    transform: rotate(45deg);
+    width: 150px;
+    height: 30px;
+    border: #000000A3;
+    background-color: #000000A3
+ }
+.diagonal2{
+    margin-left: 50vw;
+    margin-top: -4vh;
+    transform: rotate(135deg);
+    width: 150px;
+    height: 30px;
+    border: #000000A3;
+    background-color: #000000A3
+ }
+.lines{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}  */
+.rules{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#rules-btn{
+    padding:10px 25px;
+    background: #8CC461;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    width:120px;
+    height:auto;
+    position:fixed;
+    bottom: 20px;
+    right:25px;
+    cursor:pointer;
+}
+#rulebox{
+    border-radius: 13px;
+    border: 7px solid #FFF;
+    background: #004429;
+    padding:15px;
+    color: #FFF;
+    width: 263px;
+    height:310px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    float:right;
+    position: fixed;
+    bottom: 90px;
+    right: 25px;
+    
+}
+#flex{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:100%;
+}
+#rulebox h2{
+    font-size:29px; 
+}
+ul{
+    list-style-image: url('Rectangle 5.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:15px;
+    height:100%;
+}
+#x{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 60 60' fill='none'%3E%3Ccircle cx='30' cy='30' r='27.5' fill='%23FF0000' stroke='white' stroke-width='5'/%3E%3C/svg%3E");
+    width:50px;
+    height:50px;
+    color: #FFF;
+    font-family: Dangrek;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    cursor:pointer;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid black;
+    border-width: 5px;
+  }
